@@ -233,4 +233,4 @@ if __name__ == "__main__":
 
     print("start of training")
     # Train the model
-    # train_model(model, train_loader, val_loader, optimizer, num_epochs=5)
+    train_model(model, train_loader, val_loader, optimizer, num_epochs=5)
